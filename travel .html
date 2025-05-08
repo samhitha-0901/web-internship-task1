@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wanderlust Travels</title>
+  <style>
+    /* Base Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #264653;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #e76f51;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d64b3d;
+    }
+
+    footer {
+      background-color: #264653;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wanderlust Travels</h1>
+    <p>Explore the world with us!</p>
+  </header>
+
+  <nav>
+    <a href="#destinations">Destinations</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="destinations">
+      <h2>Top Destinations</h2>
+      <p>From tropical beaches to mountain retreats, we have something for everyone.</p>
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach Destination">
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Wanderlust Travels has been helping explorers find the perfect vacation for over 10 years. Our mission is to make travel easy, affordable, and unforgettable.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out and start your journey!</p>
+      <div class="button-container">
+        <button onclick="showAlert()">Click to Book Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wanderlust Travels. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("Thank you for your interest! A travel expert will contact you shortly.");
+    }
+  </script>
+
+</body>
+</html>
